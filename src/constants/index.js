@@ -18,7 +18,7 @@ const navLinks = [
   ];
   
   const words = [
-    { text: "Communion", imgPath: "/images/ideas.svg" },
+    { text: "Faith", imgPath: "/images/ideas.svg" },
     { text: "Service", imgPath: "/images/concepts.svg" },
     { text: "Worship", imgPath: "/images/designs.svg" },
     { text: "Grace", imgPath: "/images/code.svg" },
