@@ -67,7 +67,7 @@ const Hero = () => {
           <img
             src="/images/church1.png"
             alt="St. Cyril Church"
-            className="w-full max-w-[90%] md:max-w-[520px] lg:max-w-[700px] xl:max-w-[800px] object-contain"
+            className="w-full max-w-[90%] md:max-w-[520px] lg:max-w-[700px] lg:mb-[70px] xl:max-w-[800px] object-contain"
           />
         </div>
       </div>

@@ -24,7 +24,7 @@ const Mission = () => {
         ease: "power2.out",
         snap: { innerText: 1 },
         scrollTrigger: {
-          trigger: "#counter",
+        //   trigger: "#counter",
           start: "top center",
         },
         onComplete: () => {

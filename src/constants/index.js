@@ -31,6 +31,59 @@ const navLinks = [
      { value: 4, suffix: ".", label: "Building unity among parishioners and extending welcome to all" },
      { value: 5, suffix: ".", label: "Engaging in outreach, social justice, and evangelization" },
   ];
+
+  const activities = [
+    {
+      id: 1,
+      image: '/images/holymass.png',
+      title: 'Holy Mass',
+      description: [
+        'Join us daily for the celebration of the Holy Mass.',
+        'See the Schedule below:',
+        { label: 'Weekdays', time: '6:30AM, 12:30PM & 6:30PM' },
+        { label: 'Saturdays & Public Holidays', time: '8:00AM' },
+        { label: 'Sundays', time: '6:15AM, 8:00AM, 11:00AM and 6:00PM' },
+      ]
+    },
+    {
+      id: 2,
+      image: '/images/confession.png',
+      title: 'Confession',
+      description: [
+        { label: 'Saturdays', time: '9:00AM' },
+        { label: 'Weekdays', time: '9:00AM & 2:00PM (in the Parish office)' }
+      ]
+    },
+    {
+      id: 3,
+      image: '/images/catchumen.png',
+      title: 'Catechumenate',
+      description: [
+        { label: 'Saturdays', time: '9:00AM' },
+        { label: 'Weekdays', time: '9:00AM & 2:00PM (in the Parish office)' }
+      ]
+    },
+
+    {
+      id: 4,
+      image: '/images/adoration.png',
+      title: 'Adoration',
+      description: [
+        { label: 'Saturdays', time: '9:00AM' },
+        { label: 'Weekdays', time: '9:00AM & 2:00PM (in the Parish office)' }
+      ]
+    },
+    {
+      id: 4,
+      image: '/images/bible.png',
+      title: 'Bible Study',
+      description: [
+        { label: 'Saturdays', time: '9:00AM' },
+        { label: 'Weekdays', time: '9:00AM & 2:00PM (in the Parish office)' }
+      ]
+    }
+    
+  ];
   
   
   const logoIconsList = [
@@ -280,4 +333,5 @@ const navLinks = [
     techStackIcons,
     techStackImgs,
     navLinks,
+    activities,
   };

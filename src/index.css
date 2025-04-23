@@ -155,14 +155,14 @@ section {
     }
   }
 
-  .app-showcase {
+  .activity-showcase {
     @apply w-full mt-20 px-5 md:px-20 py-10 md:py-20 flex items-center justify-center;
 
-    .showcaselayout {
+    .activitylayout {
       @apply flex xl:flex-row flex-col gap-10 justify-between;
     }
 
-    .first-project-wrapper {
+    .first-activity-wrapper {
       @apply h-full flex flex-col justify-between xl:w-[60%];
 
       .image-wrapper {
