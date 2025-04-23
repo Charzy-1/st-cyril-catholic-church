@@ -24,12 +24,14 @@ const navLinks = [
     { text: "Grace", imgPath: "/images/code.svg" },
   ];
   
-  const counterItems = [
-    { value: 15, suffix: "+", label: "Years of Experience" },
-    { value: 200, suffix: "+", label: "Satisfied Clients" },
-    { value: 108, suffix: "+", label: "Completed Projects" },
-    { value: 90, suffix: "%", label: "Client Retention Rate" },
+  const missions = [
+    { value: 1, suffix: ".", label: "Worshiping God through reverent liturgy and sacraments" },
+     { value: 2, suffix: ".", label: "Serving others with compassion, humility, and love" },
+     { value: 3, suffix: ".", label: "Nurturing faith in children, youth, and adults" },
+     { value: 4, suffix: ".", label: "Building unity among parishioners and extending welcome to all" },
+     { value: 5, suffix: ".", label: "Engaging in outreach, social justice, and evangelization" },
   ];
+  
   
   const logoIconsList = [
     {
@@ -270,7 +272,7 @@ const navLinks = [
     words,
     abilities,
     logoIconsList,
-    counterItems,
+    missions,
     expCards,
     expLogos,
     testimonials,
