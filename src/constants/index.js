@@ -74,7 +74,7 @@ const navLinks = [
       ]
     },
     {
-      id: 4,
+      id: 5,
       image: '/images/bible.png',
       title: 'Bible Study',
       description: [
