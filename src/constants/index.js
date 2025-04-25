@@ -1,21 +1,21 @@
 const navLinks = [
-    {
-      name: "Work",
-      link: "#work",
-    },
-    {
-      name: "Experience",
-      link: "#experience",
-    },
-    {
-      name: "Skills",
-      link: "#skills",
-    },
-    {
-      name: "Testimonials",
-      link: "#testimonials",
-    },
-  ];
+  {
+    name: "Parish Activites",
+    link: "#activitysection",
+  },
+  {
+    name: "Outstations/Projects",
+    link: "#experience",
+  },
+  {
+    name: "Parish News",
+    link: "#skills",
+  },
+  {
+    name: "Mass Booking",
+    link: "#testimonials",
+  },
+];
   
   const words = [
     { text: "Faith", imgPath: "/images/ideas.svg" },

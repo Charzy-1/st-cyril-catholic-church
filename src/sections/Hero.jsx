@@ -21,7 +21,7 @@ const Hero = () => {
 
       <div className="hero-layout">
         {/* Hero Text Section */}
-        <header className="w-full lg:w-1/2 flex flex-col justify-center px-5 md:px-14 xl:px-20">
+        <header className="w-full lg:w-1/2 flex flex-col justify-center px-5 md:px-14 xl:px-2">
           <div className="flex flex-col gap-7">
             <div className="hero-text">
               <h1>
@@ -67,7 +67,7 @@ const Hero = () => {
           <img
             src="/images/church1.png"
             alt="St. Cyril Church"
-            className="w-full max-w-[90%] md:max-w-[520px] lg:max-w-[700px] lg:mb-[70px] xl:max-w-[800px] object-contain"
+            className="w-full max-w-[90%] md:max-w-[520px] lg:max-w-[700px] lg:mb-[70px] mb-6 xl:max-w-[800px] object-contain"
           />
         </div>
       </div>

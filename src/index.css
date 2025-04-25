@@ -81,7 +81,7 @@ section {
   }
 
   .hero-layout {
-    @apply relative z-10 xl:mt-20 mt-32 min-h-screen h-auto flex flex-col-reverse lg:flex-row items-center justify-between gap-10 px-5 md:px-14 xl:px-20;
+    @apply relative z-10 xl:mt-20 mt-32 min-h-screen h-auto flex flex-col-reverse lg:flex-row justify-between items-center gap-4 lg:gap-10 px-5 md:px-14 xl:px-20;
   }
   
 
@@ -146,7 +146,7 @@ section {
       @apply flex;
 
       .inner {
-        @apply px-5 py-2 rounded-lg bg-white text-black group-hover:bg-black-50 transition-colors duration-300;
+        @apply px-5 py-2 rounded-lg bg-amber-500 font-bold text-black group-hover:bg-black-50 transition-colors duration-300;
 
         span {
           @apply group-hover:text-white transition-colors duration-300;
