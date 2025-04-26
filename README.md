@@ -24,9 +24,10 @@ This project focuses on **clarity, accessibility,** and **community engagement**
 
 - React.js
 - Tailwind CSS
-- EmailJS (for form submissions)
 - Vite
-- Framer Motion (for smooth animations)
+- GSAP (for animations)
+- Framer Motion (for smooth transitions)
+- EmailJS (for form submissions)
 
 ---
 
@@ -38,7 +39,7 @@ This project focuses on **clarity, accessibility,** and **community engagement**
 - 📅 Events and Programs information
 - 🧩 Contact Form (direct email submission using EmailJS)
 - 📱 Fully responsive design for mobile, tablet, and desktop
-- 🌟 Smooth animations for better user experience
+- 🌟 Smooth animations using GSAP and Framer Motion
 - 🔥 Optimized for fast loading
 
 ---
@@ -47,35 +48,29 @@ This project focuses on **clarity, accessibility,** and **community engagement**
 
 Follow these steps to set up the project locally on your machine:
 
-**Prerequisites**  
+### Prerequisites
+
 Make sure you have the following installed:
 
 - [Git](https://git-scm.com/)
 - [Node.js](https://nodejs.org/)
 - [npm](https://www.npmjs.com/)
 
-**Cloning the Repository**
+### Cloning the Repository
+
+### installation
+- npm install
+
+### Setup environment variables
+Create a .env file in the root directory and add the following
+- VITE_APP_EMAILJS_SERVICE_ID=your_service_id
+- VITE_APP_EMAILJS_TEMPLATE_ID=your_template_id
+- VITE_APP_EMAILJS_PUBLIC_KEY=your_public_key
+
+### installation
+- npm run dev
+Visit http://localhost:5173 to view the app.
 
 ```bash
-git clone https://github.com/Charzy-1/st-cyril-catholic-church
-cd st-cyril-website
-
-
-**Installation**
-npm install
-
-**Set up Environment Variables**
-VITE_APP_EMAILJS_SERVICE_ID=your_service_id
-VITE_APP_EMAILJS_TEMPLATE_ID=your_template_id
-VITE_APP_EMAILJS_PUBLIC_KEY=your_public_key
-
-**More**
-Future Enhancements:
-
-Sermons upload section
-
-Newsletter sign-up form
-
-Event calendar with reminders
-
-Admin dashboard for easy content updates
+git clone https://github.com/Charzy-1/st-cyril-catholic-church.git
+cd st-cyril-catholic-church
