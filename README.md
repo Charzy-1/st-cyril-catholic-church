@@ -1,12 +1,81 @@
-# React + Vite
+# 📖 St. Cyril Catholic Church Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📋 Table of Contents
 
-Currently, two official plugins are available:
+1. 🏛️ [Introduction](#introduction)  
+2. ⚙️ [Tech Stack](#tech-stack)  
+3. ✨ [Features](#features)  
+4. 🚀 [Quick Start](#quick-start)  
+5. 📎 [Assets](#assets)  
+6. 🔥 [More](#more)  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🏛️ Introduction
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The **St. Cyril Catholic Church Website** is a modern, responsive, and user-friendly platform built to enhance communication between the parish and its members.  
+It offers updated information about church services, events, programs, and facilitates easy contact with the church administration.
+
+This project focuses on **clarity, accessibility,** and **community engagement**.
+
+---
+
+## ⚙️ Tech Stack
+
+- React.js
+- Tailwind CSS
+- EmailJS (for form submissions)
+- Vite
+- Framer Motion (for smooth animations)
+
+---
+
+## ✨ Features
+
+### Key Features:
+
+- 🏛️ Beautiful landing page highlighting St. Cyril's mission
+- 📅 Events and Programs information
+- 🧩 Contact Form (direct email submission using EmailJS)
+- 📱 Fully responsive design for mobile, tablet, and desktop
+- 🌟 Smooth animations for better user experience
+- 🔥 Optimized for fast loading
+
+---
+
+## 🚀 Quick Start
+
+Follow these steps to set up the project locally on your machine:
+
+**Prerequisites**  
+Make sure you have the following installed:
+
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/)
+
+**Cloning the Repository**
+
+```bash
+git clone https://github.com/Charzy-1/st-cyril-catholic-church
+cd st-cyril-website
+
+
+**Installation**
+npm install
+
+**Set up Environment Variables**
+VITE_APP_EMAILJS_SERVICE_ID=your_service_id
+VITE_APP_EMAILJS_TEMPLATE_ID=your_template_id
+VITE_APP_EMAILJS_PUBLIC_KEY=your_public_key
+
+**More**
+Future Enhancements:
+
+Sermons upload section
+
+Newsletter sign-up form
+
+Event calendar with reminders
+
+Admin dashboard for easy content updates
