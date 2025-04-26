@@ -36,7 +36,11 @@ const Mission = () => {
 
   return (
     <div id="mission" ref={counterRef} className="padding-x-lg xl:mt-0 mt-32">
+      <div className="text-center ">
+          <h2 className="text-3xl font-bold mb-8">Our Mission</h2>
+      </div>
       <div className="mx-auto grid md:grid-cols-2 xl:grid-cols-3 gap-6">
+      
         {missions.map((item, index) => (
           <div
             key={index}

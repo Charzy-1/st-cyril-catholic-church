@@ -156,7 +156,7 @@ section {
   }
 
   .activity-showcase {
-    @apply w-full mt-20 px-5 md:px-20 py-10 md:py-20 flex items-center justify-center;
+    @apply w-full mt-10 px-5 md:px-20 py-10 md:py-20 flex items-center justify-center;
 
     .activitylayout {
       @apply flex xl:flex-row flex-col gap-10 justify-between;

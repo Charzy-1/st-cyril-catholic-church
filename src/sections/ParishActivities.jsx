@@ -47,6 +47,10 @@ const ParishActivities = () => {
   return (
     <section id="activitysection" ref={sectionRef} className="activity-showcase py-10">
       <div className="w-full px-4">
+      <div className="text-center ">
+          <h2 className="text-3xl font-bold mb-8">Our Parish Activities</h2>
+      </div>
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {activities.map((activity) => (
             <div
